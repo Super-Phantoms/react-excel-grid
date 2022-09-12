@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Closed select 1`] = `
+<div
+  className="SpreadsheetGridDropdown"
+>
+  <div
+    className="SpreadsheetGridSelectHeader"
+    onClick={[Function]}
+  >
+    <div
+      className="SpreadsheetGridSelectValue"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="SpreadsheetGridDropdown__body"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div>
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Closed select without a selected value 1`] = `
+<div
+  className="SpreadsheetGridDropdown"
+>
+  <div
+    className="SpreadsheetGridSelectHeader"
+    onClick={[Function]}
+  >
+    <div
+      className="SpreadsheetGridSelectValue"
+    >
+      Placeholder
+    </div>
+  </div>
+  <div
+    className="SpreadsheetGridDropdown__body"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div>
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Opened select 1`] = `
+<div
+  className="SpreadsheetGridDropdown"
+>
+  <div
+    className="SpreadsheetGridSelectHeader SpreadsheetGridSelectHeader_open"
+    onClick={[Function]}
+  >
+    <div
+      className="SpreadsheetGridSelectValue"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="SpreadsheetGridDropdown__body"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <div>
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+      <div
+        className="SpreadsheetGridSelectItem"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
