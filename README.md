@@ -1,7 +1,6 @@
 # React Spreadsheet Grid
 > An Excel-like grid component for React with custom cell editors, performant scroll & resizable columns
 
-![react-spreadsheet-grid in action](https://raw.githubusercontent.com/denisraslov/react-spreadsheet-grid/master/demo.gif)
 
 ## The key features
 
@@ -566,3 +565,6 @@ const LazyLoadingGrid = () => {
     )
 }
 ```
+## Author
+
+Super-Phantoms
