@@ -1,0 +1,83 @@
+{
+  "name": "react-spreadsheet-grid",
+  "version": "2.3.0",
+  "description": "An Excel-like grid component for React with custom cell editors, performant scroll & resizable columns",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "build": "NODE_ENV='production' webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "grid",
+    "spreadsheet",
+    "table",
+    "data-table",
+    "columns",
+    "cells",
+    "scroll",
+    "resizable"
+  ],
+  "files": [
+    "index.js",
+    "src",
+    "lib"
+  ],
+  "types": "types.d.ts",
+  "author": "Denis Raslov <denis.raslov@yandex.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denisraslov/react-spreadsheet-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denisraslov/react-spreadsheet-grid/issues"
+  },
+  "homepage": "https://github.com/denisraslov/react-spreadsheet-grid#readme",
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/jestSetup.js"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.css$": "<rootDir>/jestCSSStub.js"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "lodash.find": "^4.6.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.slice": "^4.2.0"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "3.0.0-alpha.0",
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "husky": "^8.0.1",
+    "jest": "^21.2.1",
+    "lint-staged": "^13.0.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^2.1.4",
+    "prettier": "2.7.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-test-renderer": "^16.3.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.11.0"
+  }
+}
